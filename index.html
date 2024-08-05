@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class ="logo">
+            <img src="LOGO.png" class="foto"></img>
+        </div>
+        <div class="links">
+            <a href="#" class="active">About</a>
+            <a href="#esperienze" class="active">Esperienze</a>
+            <a href="#" class="active">Certificazioni</a>
+        </div>
+    </nav>
+
+    <div class="about">
+        <div class="left">
+            <h3>Programmer</h3>
+            <div class="info">
+                <h2>Sono Luca Corona</h2>
+                <p>Sono un ragazzo appassionato di programmazione a cui piace la sfida continua di ricerca e perfezione del software.</p>
+                <div class="buttons">
+                    <button class="hire">
+                        Hire me <i class="fa-solid fa-plus"></i>
+                    </button>
+                    <button class="email" onclick="copyEmail()">
+                        Copy Email <i class="fa-regular fa-copy"></i>
+                    </button>
+                    <input type="text" id="email" value="luca.corona0086@gmail.com" readonly style="position: absolute; left: -9999px;">
+                    <script src="script.js"></script>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <a href="#" class="online"><i class="fa-solid fa-circle"></i>Available For Jobs</a>
+            <img src="PROFILO.png">
+        </div>
+    </div>
+
+    <div class="works">
+        <div class="left">
+            <h3 id="esperienze"><i class="fa-solid fa-circle"></i>Recent works</h3>
+            <div class="works-list">
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Capo Turno</h5>
+                        <p>2024 - Present</p>
+                    </div>
+                    <p>Technoprobe S.P.A.</p>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Operatore specializzato di macchine automatiche</h5>
+                        <p> 2020 - 2022</p>
+                    </div>
+                    <p>Technoprobe S.P.A</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="item">
+                <a href="#">About my Work</a>
+                <p> 
+                    Come capoturno e operatore specializzato con 5 anni 
+                    di esperienza nel settore dell'informatica e dei microchip, 
+                    coordino il team e monitoro le macchine automatiche 4.0 robotiche 
+                    per garantire un flusso produttivo continuo e risolvere tempestivamente 
+                    eventuali problemi. Il lavoro di squadra è cruciale nel mio ruolo, 
+                    mentre la mia passione per l'informatica mi 
+                    ha portato a studiare ingegneria informatica, approfondendo
+                    competenze che contribuiscono allo sviluppo e all'innovazione dell'azienda.
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">Operatore specializzato</a>
+                <p>
+                    La mia principale responsabilità consiste nell'operare 
+                    e monitorare macchine automatihce 4.0
+                </p>
+            </div>
+            <div class="item">
+                <a href="#"> Lavoro in team</a>
+                <p>
+                    Nel mio ruolo, il lavoro di squadra è fondamentale. 
+                    Collaboro per garantire l'efficienza delle macchine.
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">Formazione e crescita personale</a>
+                <p>
+                    La mia passione mi ha 
+                    spinto a studiare ingegneria informatica, 
+                    approfondendo competenze tecnologiche e 
+                    ottimizzare le 
+                    operazioni aziendali.
+                </p>
+            </div>
+            <div class="item">
+                <a href="#">Capo turno</a>
+                <p>
+                    Nel mio ruolo, coordino il team e 
+                    garantisco un flusso produttivo continuo, 
+                    risolvendo tempestivamente problemi tecnici 
+                    per minimizzare i tempi di inattività
+                    delle macchine.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a href="#">My portfolio</a>
+        <div class="socials">
+            <a href="#"><i class="fa-brands fa-github"></i>GitHub</a>
+            <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+        </div>
+        <a href="#" class="online">
+            &uarr; HOMEPAGE
+        </a>
+
+    </footer>
+
+</body>
+</html>
