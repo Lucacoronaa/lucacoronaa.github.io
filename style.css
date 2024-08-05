@@ -159,7 +159,7 @@ footer a.online{
 
 .about .right a.online i,
 footer a.online i{
-    color: #4CAF50;
+    color: red;
     font-size: 10px;
 }
 
